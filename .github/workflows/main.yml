@@ -24,6 +24,6 @@ jobs:
         file: ./dockerfile
         push: true
         tags: |
-          blackvsk/estudo-cicd:v1
+          blackvsk/estudo-cicd:${{git.run.number}}
           blackvsk/estudo-cicd:latest
       
